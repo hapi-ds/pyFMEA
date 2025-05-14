@@ -1,0 +1,17 @@
+[project]
+name = "pyfmea"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "han's", email = "hans@koehler.eu.com" }
+]
+requires-python = ">=3.13"
+dependencies = []
+
+[project.scripts]
+pyfmea = "pyfmea:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
